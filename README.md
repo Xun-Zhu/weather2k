@@ -4,7 +4,7 @@
 
 【Accepted】by **the 26th International Conference on Artificial Intelligence and Statistics (AISTATS) 2023**
 
-<a href='[https://arxiv.org/abs/2409.17508](https://arxiv.org/abs/2302.10493)'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  [![GitHub repo](https://img.shields.io/badge/github-repo-green)]([https://github.com/simonw/llm](https://github.com/Xun-Zhu/weather2k/))  [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/BUPT-PRIS-727/Weather2K)
+<a href='[https://arxiv.org/abs/2409.17508](https://arxiv.org/abs/2302.10493)'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  [![GitHub repo](https://img.shields.io/badge/github-repo-green)](https://github.com/Xun-Zhu/weather2k/)  [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/BUPT-PRIS-727/Weather2K)
 
 ## Download the dataset
 
