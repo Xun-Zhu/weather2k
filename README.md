@@ -4,52 +4,15 @@
 
 【Accepted】by **the 26th International Conference on Artificial Intelligence and Statistics (AISTATS) 2023**
 
-https://aistats.org/aistats2023/accepted.html
-
-This repository provides the dataset used in the paper. We hope that the release of Weather2K can provide a foundation for accelerated research in this area and foster collaboration between atmospheric and data scientists.
-
-
+<a href='[https://arxiv.org/abs/2409.17508](https://arxiv.org/abs/2302.10493)'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  [![GitHub repo](https://img.shields.io/badge/github-repo-green)]([https://github.com/simonw/llm](https://github.com/Xun-Zhu/weather2k/))  [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/BUPT-PRIS-727/Weather2K)
 
 ## Download the dataset
 
-Google Drive : https://drive.google.com/drive/folders/1rTabWIuAarDfSkUROK2rzEYJEqP338UM?usp=share_link
+This is the open-source version (after confidential review) of the Weather2K dataset: https://huggingface.co/datasets/BUPT-PRIS-727/Weather2K
 
-If you have any quesetions about the data download, please contact wuming@bupt.edu.cn
-
-The data is hosted in the upper links with the following directory structure :
-
-```
-.
-|-- Weather2K-R
-|   `-- data.npy
-|-- Weather2K-S
-|   |-- 79.csv
-|   |-- 114.csv
-|   |-- 209.csv
-|   |-- 259.csv
-|   |-- 532.csv
-|   |-- 546.csv
-|   |-- 850.csv
-|   |-- 852.csv
-|   |-- 947.csv
-|   |-- 1201.csv
-|   |-- 1272.csv
-|   |-- 1328.csv
-|   |-- 1527.csv
-|   |-- 1691.csv
-|   `-- 1796.csv
-`-- idx2stat.txt
-```
-
-The shape of the numpy file of Weather2K-R is (1866, 23, 40896), which means 1,866 groud weather stations,  3 constants for position information and 20 meteorological factors, and 40,896 time steps. 
-
-Weather2K-S contains 15 representative and geographically diverse ground weather stations distributed throughout China. They are csv files named after the index used in the numpy file.
-
-idx2stat.txt shows the correspondence bewteen the numpy index and the original station number.
+The shape of the numpy file of Weather2K-R is (1866, 13, 13632), which means 1,866 groud weather stations, 3 constants for position information and 10 meteorological factors, and 13,632 time steps with 3-hour time resolution (Time coverage range: January 1, 2017- August 31, 2021).
 
 
-
-## Definitions of the variables in the dataset
 
 |  Numpy Index   | **Long Name**                             | **Short Name**         | **Unit** |
 | :------------: | :---------------------------------------- | :--------------------- | :------: |
@@ -59,17 +22,20 @@ idx2stat.txt shows the correspondence bewteen the numpy index and the original s
 |       3        | Air pressure                              | ap                     |   hpa    |
 |       4        | Air Temperature                           | t                      |   (°C)   |
 |      5/6       | Maximum / Minimum temperature             | mxt / mnt              |   (°C)   |
-|       7        | Dewpoint temperature                      | dt                     |   (°C)   |
-|       8        | Relative humidity                         | rh                     |   (%)    |
-|       9        | Water vapor pressure                      | wvp                    |   hpa    |
-| 10/11/12/13/14 | Precipitation in 1h / 3h / 6h / 12h / 24h | p1 / p2 / p3 / p4 / p5 |   (mm)   |
-|       15       | Wind direction                            | wd                     |   (°)    |
-|       16       | Wind speed                                | ws                     | (ms<sup>-1</sup>) |
-|       17       | Maximum wind direction                    | mwd                    |   (°)    |
-|       18       | Maximum wind speed                        | mws                    | (ms<sup>-1</sup>) |
-|       19       | Land surface temperature                  | st                     |   (°C)   |
-|     20/21      | Horizontal visibility in 1 min / 10 min   | hv1 / hv2              |   (m)    |
-|       22       | Vertical visibility                       | vv                     |   (m)    |
+|       7        | Relative humidity                         | rh                     |   (%)    |
+|       8        | Precipitation in 3h                       | p3                     |   (mm)   |
+|       9        | Wind direction                            | wd                     |   (°)    |
+|       10       | Wind speed                                | ws                     | (ms<sup>-1</sup>) |
+|       11       | Maximum wind direction                    | mwd                    |   (°)    |
+|       12       | Maximum wind speed                        | mws                    | (ms<sup>-1</sup>) |
+
+If you have any quesetions about the data download, please contact wuming@bupt.edu.cn
+
+
+
+## Archive
+
+- [Weather2K v1.0]([https://github.com/microsoft/LLaVA-Med/tree/v1.0.0](https://github.com/Xun-Zhu/weather2k/tree/v1.0.0))
 
 
 ## Cite
