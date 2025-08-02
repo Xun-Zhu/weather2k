@@ -35,7 +35,7 @@ If you have any quesetions about the data download, please contact wuming@bupt.e
 
 ## Archive
 
-- [Weather2K v1.0]([https://github.com/microsoft/LLaVA-Med/tree/v1.0.0](https://github.com/Xun-Zhu/weather2k/tree/v1.0.0))
+- [Weather2K v1.0](https://github.com/Xun-Zhu/weather2k/tree/v1.0.0)
 
 
 ## Cite
