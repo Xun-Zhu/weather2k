@@ -8,7 +8,7 @@
 
 ## Download the dataset
 
-This is the open-source version (after confidential review) of the Weather2K dataset: https://huggingface.co/datasets/BUPT-PRIS-727/Weather2K
+This is the open-source version (after necessary adjustments and checks) of the Weather2K dataset: https://huggingface.co/datasets/BUPT-PRIS-727/Weather2K
 
 The shape of the numpy file of Weather2K-R is (1866, 13, 13632), which means 1,866 groud weather stations, 3 constants for position information and 10 meteorological factors, and 13,632 time steps with 3-hour time resolution (Time coverage range: January 1, 2017- August 31, 2021).
 
